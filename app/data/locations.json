@@ -1,0 +1,377 @@
+{
+
+    "result": [{
+        "cityId": 234,
+        "cityName": "Gombak",
+        "cityCode": "GMB"
+    }, {
+        "cityId": 14,
+        "cityName": "Sungai Petani",
+        "cityCode": "SP"
+    }, {
+        "cityId": 46,
+        "cityName": "Kluang",
+        "cityCode": "KLU"
+    }, {
+        "cityId": 82,
+        "cityName": "Teluk Intan",
+        "cityCode": "TI"
+    }, {
+        "cityId": 25,
+        "cityName": "Seri Iskandar",
+        "cityCode": "SI"
+    }, {
+        "cityId": 103,
+        "cityName": "Arau",
+        "cityCode": "ARAU"
+    }, {
+        "cityId": 240,
+        "cityName": "Wakaf Tapai",
+        "cityCode": "WTAPAI"
+    }, {
+        "cityId": 18,
+        "cityName": "Batu Gajah",
+        "cityCode": "BG"
+    }, {
+        "cityId": 56,
+        "cityName": "Pengkalan Chepa",
+        "cityCode": "PC"
+    }, {
+        "cityId": 87,
+        "cityName": "Jerteh",
+        "cityCode": "JERT"
+    }, {
+        "cityId": 35,
+        "cityName": "Klang",
+        "cityCode": "KLG"
+    }, {
+        "cityId": 39,
+        "cityName": "Kerteh",
+        "cityCode": "KTH"
+    }, {
+        "cityId": 54,
+        "cityName": "Gua Musang",
+        "cityCode": "GM"
+    }, {
+        "cityId": 70,
+        "cityName": "Endau",
+        "cityCode": "END"
+    }, {
+        "cityId": 53,
+        "cityName": "Bachok",
+        "cityCode": "BAC"
+    }, {
+        "cityId": 8,
+        "cityName": "Johor Bahru",
+        "cityCode": "JB"
+    }, {
+        "cityId": 37,
+        "cityName": "Shah Alam",
+        "cityCode": "SA"
+    }, {
+        "cityId": 236,
+        "cityName": "Al Muktafi Billah Shah",
+        "cityCode": "AMBS"
+    }, {
+        "cityId": 50,
+        "cityName": "Pasir Gudang",
+        "cityCode": "PG"
+    }, {
+        "cityId": 1,
+        "cityName": "Singapore",
+        "cityCode": "SG"
+    }, {
+        "cityId": 212,
+        "cityName": "Pasir Putih",
+        "cityCode": "PPIT"
+    }, {
+        "cityId": 78,
+        "cityName": "Kuala Kangsar",
+        "cityCode": "KKG"
+    }, {
+        "cityId": 107,
+        "cityName": "Cameron Highlands",
+        "cityCode": "CH"
+    }, {
+        "cityId": 225,
+        "cityName": "Nilai",
+        "cityCode": "NI"
+    }, {
+        "cityId": 58,
+        "cityName": "Pasir Mas",
+        "cityCode": "PM"
+    }, {
+        "cityId": 12,
+        "cityName": "Changlun",
+        "cityCode": "CN"
+    }, {
+        "cityId": 220,
+        "cityName": "Tangkak",
+        "cityCode": "TK"
+    }, {
+        "cityId": 17,
+        "cityName": "Air Tawar",
+        "cityCode": "AT"
+    }, {
+        "cityId": 92,
+        "cityName": "Kampar",
+        "cityCode": "KAM"
+    }, {
+        "cityId": 226,
+        "cityName": "Pontian",
+        "cityCode": "PTN"
+    }, {
+        "cityId": 23,
+        "cityName": "Manjung",
+        "cityCode": "MAN"
+    }, {
+        "cityId": 24,
+        "cityName": "Pengkalan Hulu",
+        "cityCode": "PH"
+    }, {
+        "cityId": 207,
+        "cityName": "Kuala Krai",
+        "cityCode": "KKI"
+    }, {
+        "cityId": 77,
+        "cityName": "Grik",
+        "cityCode": "GRIK"
+    }, {
+        "cityId": 84,
+        "cityName": "Kajang",
+        "cityCode": "KAJ"
+    }, {
+        "cityId": 209,
+        "cityName": "Kok Lanas",
+        "cityCode": "KOKL"
+    }, {
+        "cityId": 88,
+        "cityName": "Kemaman",
+        "cityCode": "KEM"
+    }, {
+        "cityId": 30,
+        "cityName": "Padang Besar",
+        "cityCode": "PBE"
+    }, {
+        "cityId": 22,
+        "cityName": "Lumut",
+        "cityCode": "LMT"
+    }, {
+        "cityId": 15,
+        "cityName": "Seremban",
+        "cityCode": "SRB"
+    }, {
+        "cityId": 262,
+        "cityName": "Tok Bali",
+        "cityCode": "TKB"
+    }, {
+        "cityId": 233,
+        "cityName": "Sintok",
+        "cityCode": "STK"
+    }, {
+        "cityId": 98,
+        "cityName": "Bagan Serai",
+        "cityCode": "BS"
+    }, {
+        "cityId": 59,
+        "cityName": "Rantau Panjang",
+        "cityCode": "RP"
+    }, {
+        "cityId": 69,
+        "cityName": "Bentong",
+        "cityCode": "BEN"
+    }, {
+        "cityId": 3,
+        "cityName": "Melaka",
+        "cityCode": "MLK"
+    }, {
+        "cityId": 52,
+        "cityName": "Jitra",
+        "cityCode": "KIT"
+    }, {
+        "cityId": 47,
+        "cityName": "Kota Tinggi",
+        "cityCode": "KTI"
+    }, {
+        "cityId": 239,
+        "cityName": "Durian Mas",
+        "cityCode": "DMAS"
+    }, {
+        "cityId": 68,
+        "cityName": "Tampin",
+        "cityCode": "TAM"
+    }, {
+        "cityId": 64,
+        "cityName": "Gemas",
+        "cityCode": "GEM"
+    }, {
+        "cityId": 80,
+        "cityName": "Parit Buntar",
+        "cityCode": "PB"
+    }, {
+        "cityId": 258,
+        "cityName": "Ketengah Jaya",
+        "cityCode": "KTJ"
+    }, {
+        "cityId": 13,
+        "cityName": "Kulim",
+        "cityCode": "KLM"
+    }, {
+        "cityId": 106,
+        "cityName": "Kodiang",
+        "cityCode": "KDNG"
+    }, {
+        "cityId": 75,
+        "cityName": "Raub",
+        "cityCode": "RAUB"
+    }, {
+        "cityId": 20,
+        "cityName": "Kroh",
+        "cityCode": "KROH"
+    }, {
+        "cityId": 57,
+        "cityName": "Pengkalan Kubor",
+        "cityCode": "PK"
+    }, {
+        "cityId": 44,
+        "cityName": "Batu Pahat",
+        "cityCode": "BP"
+    }, {
+        "cityId": 34,
+        "cityName": "KLIA",
+        "cityCode": "KLIA"
+    }, {
+        "cityId": 210,
+        "cityName": "Ketereh",
+        "cityCode": "KTRH"
+    }, {
+        "cityId": 36,
+        "cityName": "KLIA2",
+        "cityCode": "KLIA2"
+    }, {
+        "cityId": 10,
+        "cityName": "Alor Setar",
+        "cityCode": "AS"
+    }, {
+        "cityId": 73,
+        "cityName": "Kuala Lipis",
+        "cityCode": "KLIP"
+    }, {
+        "cityId": 201,
+        "cityName": "Hatyai",
+        "cityCode": "HAT"
+    }, {
+        "cityId": 38,
+        "cityName": "Kuala Terengganu",
+        "cityCode": "KT"
+    }, {
+        "cityId": 31,
+        "cityName": "Butterworth",
+        "cityCode": "BTH"
+    }, {
+        "cityId": 55,
+        "cityName": "Kubang Kerian",
+        "cityCode": "KK"
+    }, {
+        "cityId": 48,
+        "cityName": "Mersing",
+        "cityCode": "MER"
+    }, {
+        "cityId": 33,
+        "cityName": "Penang",
+        "cityCode": "PEN"
+    }, {
+        "cityId": 223,
+        "cityName": "Tanah Merah",
+        "cityCode": "TMH"
+    }, {
+        "cityId": 238,
+        "cityName": "Bukit Payong",
+        "cityCode": "BPYG"
+    }, {
+        "cityId": 49,
+        "cityName": "Muar",
+        "cityCode": "MUAR"
+    }, {
+        "cityId": 11,
+        "cityName": "Baling",
+        "cityCode": "BL"
+    }, {
+        "cityId": 6,
+        "cityName": "Kota Bharu",
+        "cityCode": "KB"
+    }, {
+        "cityId": 83,
+        "cityName": "Taiping",
+        "cityCode": "TAI"
+    }, {
+        "cityId": 19,
+        "cityName": "Bota",
+        "cityCode": "BOTA"
+    }, {
+        "cityId": 206,
+        "cityName": "Ayer Hitam",
+        "cityCode": "AYHTM"
+    }, {
+        "cityId": 208,
+        "cityName": "Machang",
+        "cityCode": "MCHNG"
+    }, {
+        "cityId": 29,
+        "cityName": "Kuala Perlis",
+        "cityCode": "KPR"
+    }, {
+        "cityId": 9,
+        "cityName": "Ipoh",
+        "cityCode": "IPH"
+    }, {
+        "cityId": 237,
+        "cityName": "Kuala Berang",
+        "cityCode": "KBRG"
+    }, {
+        "cityId": 51,
+        "cityName": "Segamat",
+        "cityCode": "SEG"
+    }, {
+        "cityId": 45,
+        "cityName": "Kulai",
+        "cityCode": "KUL"
+    }, {
+        "cityId": 105,
+        "cityName": "Tunjang",
+        "cityCode": "TUN"
+    }, {
+        "cityId": 213,
+        "cityName": "Panchor",
+        "cityCode": "PNCHR"
+    }, {
+        "cityId": 63,
+        "cityName": "Bahau",
+        "cityCode": "BAH"
+    }, {
+        "cityId": 28,
+        "cityName": "Kangar",
+        "cityCode": "KGR"
+    }, {
+        "cityId": 79,
+        "cityName": "Lenggong",
+        "cityCode": "LENG"
+    }, {
+        "cityId": 62,
+        "cityName": "Alor Gajah",
+        "cityCode": "AG"
+    }, {
+        "cityId": 7,
+        "cityName": "Dungun",
+        "cityCode": "DG"
+    }, {
+        "cityId": 232,
+        "cityName": "Kuala Besut",
+        "cityCode": "KBST"
+    }, {
+        "cityId": 16,
+        "cityName": "Kuantan",
+        "cityCode": "KUA"
+    }]
+
+}

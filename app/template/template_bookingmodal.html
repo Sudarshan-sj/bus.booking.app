@@ -1,0 +1,104 @@
+<style type="text/css">
+</style>
+<div id="bookingModal">
+
+    <div id="bookingHeader">
+        <div id="bookingTimeContainer">
+            <div>
+                <%=selectedOperator.departTimeText%> -
+                    <%=selectedOperator.arrivalTimeText%>
+
+            </div>
+            <div>
+                <%=selectedOperator.durationText%>
+            </div>
+            <div>
+                <%=selectedOperator.dateText%>
+            </div>
+        </div>
+        <div id="bookingOperatorContainer">
+            <div id="operatorlogo"><img src=" <%=selectedOperator.logo%>" /> </div>
+            <div id="operatorName">
+                <%=selectedOperator.operatorName%>
+            </div>
+        </div>
+        <div id="bookingPriceContainer">
+            <%=selectedOperator.price%> MYR</div>
+    </div>
+    <div id="bookingBody">
+        <div id="leftPanel">
+            <div id="seatingContainer">
+                <div>
+                    <%=selectedOperator.seatingInformation.available%> Seats Available</div>
+                <div>Choose Any Seat from Below</div>
+                <div id="seatSelectionContainer">
+                    <div id="busFront">&nbsp;</div>
+                    <div id="busSeating">
+
+
+                        <%for(var i=0, total_rows = selectedOperator.seatingInformation.rows; i < total_rows; i++){
+
+									var _row=1+i;
+									var _rowWidth=~~(100/total_rows);
+
+									%>
+                            <div class="busRow" style="width:<%=_rowWidth%>%">
+                                <%
+
+										for(var j=0, total_cols = selectedOperator.seatingInformation.columns; j < total_cols; j++){
+
+											var _column = String.fromCharCode(97 + j);
+											var seat=_.find(selectedOperator.seatingInformation.seatingData,{seat:_row+_column});
+
+
+
+											%>
+                                    <div class="busSeat <%if(seat.booked){%>booked<%}else{%>available<%}%> " data-booked="<%=seat.booked%>" data-seatid="<%=seat.seat%>" data-row="<%=seat.row%>" data-col="<%=seat.column%>">&nbsp;</div>
+                                    <%
+
+										}
+
+										%>
+                            </div>
+                            <%
+								}%>
+
+
+                    </div>
+                    <div id="busBack">&nbsp;</div>
+
+                </div>
+                <div id="seatHelperContainer">
+                    <span class="busSeat available">&nbsp;&nbsp;&nbsp;&nbsp;</span>AVAILABLE
+                    <span class="busSeat booked">&nbsp;&nbsp;&nbsp;&nbsp;</span> BOOKED
+                    <span class="busSeat selected">&nbsp;&nbsp;&nbsp;&nbsp;</span> SELECTED
+                </div>
+
+
+            </div>
+
+
+        </div>
+        <div id="RightPanel">
+            <div id="summaryContainer">
+
+                <div id="JourneyHeader">
+                    <h3>Journey Summary:-</h3></div>
+                <div id="JourneyLocations"> From
+                    <%=source.text%> to
+                        <%=destination.text%>
+                </div>
+                <div> on 27 January 2016</div>
+                <div id="seatsSelectedText">Seats Selected:- N.A</div>
+                <div id="totalAmount">Amount:- MYR 0</div>
+
+
+                <div>
+                    <button id="payBtn">Pay Now</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>

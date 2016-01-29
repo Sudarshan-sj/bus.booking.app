@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>A Simple Bus Booking App</title>
+    <!--  MAIN STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <!--  THIRD-PARTY STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="./node_modules/select2/dist/css/select2.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/zebra_datepicker/public/css/default.css">
+    <link rel="stylesheet" type="text/css" href="./node_modules/tablesorter/dist/css/theme.default.min.css">
+
+
+</head>
+
+<body>
+
+    <!-- APPLICATION STARTING POINT -->
+    <div id="mainApp">
+
+        <!-- HEADER SECTION -->
+        <div id="siteHeader">
+            <div id="headerLogoContainer">
+                <img class="logoimg" src="./images/logo.jpg">
+            </div>
+        </div>
+
+
+        <!--   MAIN SECTION -->
+        <div class="siteContent">
+            <div id="filterContainer"></div>
+            <div id="listingContainer"></div>
+
+        </div>
+
+
+        <!-- GLOBAL MESSAGE BOX SECTION -->
+        <div>
+            <div id="messageBox"></div>
+        </div>
+    </div>
+    <script data-main="./app/app" src="./node_modules/requirejs/require.js"></script>
+</body>
+
+</html>

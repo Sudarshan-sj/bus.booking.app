@@ -1,0 +1,306 @@
+body {
+    background: #f4f4f2;
+    display: block;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+    font-weight: normal;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-size: 1em;
+    line-height: 1.467;
+    font-family: "Segoe UI", "Segoe WP", Arial, Sans-Serif;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+#messageBox.error {
+    background-color: #F44336
+}
+
+#messageBox.warn {
+    background-color: #FFC107
+}
+
+#messageBox.default {
+    background-color: #8BC34A;
+}
+
+#messageBox {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    /* height: 20px; */
+    text-align: center;
+    font-weight: bold;
+    line-height: 3em;
+    background-color: #8BC34A;
+    width: 100%;
+    z-index: 1;
+}
+
+#mainApp {
+    width: 60%;
+    margin: 0px auto;
+}
+
+{
+    margin: 40px 0px 0px 10px;
+}
+
+
+/*------------------------HEADER--------------------------*/
+
+#siteHeader {
+    width: 100%;
+    height: 100px;
+}
+
+#headerLogoContainer {
+    float: left;
+}
+
+.logoimg {
+    margin: 40px 0px 0px 10px;
+}
+
+
+/*------------------------HEADER--------------------------*/
+
+
+/*------------------------FILTER--------------------------*/
+
+#siteContent {
+    margin: 10px 10px;
+    padding: 20px 30px;
+}
+
+.locationDropdown {
+    width: 300px;
+    margin: 40px;
+}
+
+#fromDate {
+    margin: 30px 0px;
+    /* float: left; */
+    width: 300px;
+}
+
+.txtDatePicker {
+    width: 300px;
+}
+
+
+/*------------------------FILTER--------------------------*/
+
+
+/*------------------------LISTING--------------------------*/
+
+#bookingContainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(53, 52, 52, 0.5);
+}
+
+#listingContainer {
+    padding: 10px 0px;
+}
+
+
+/*------------------------LISTING--------------------------*/
+
+
+/*------------------------MODAL--------------------------*/
+
+#bookingModal {
+    float: left;
+    /*width: 50%;*/
+    position: absolute;
+    top: 100px;
+    right: auto;
+    left: 17%;
+    margin: 0px;
+    padding: 50px 96px;
+    background: #f3f3f3;
+    min-height: 300px;
+}
+
+#bookingHeader,
+#bookingBody {
+    float: left;
+    width: 100%;
+}
+
+#bookingTimeContainer {
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+
+#bookingOperatorContainer {
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+#operatorlogo {
+    /*float: left;*/
+    /*width: 30%;*/
+}
+
+#operatorName {
+    float: left;
+    width: 70%;
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+}
+
+#bookingPriceContainer {
+    float: left;
+    width: 30%;
+    text-align: right;
+    font-size: 40px;
+}
+
+#leftPanel,
+#RightPanel {
+    float: left;
+    width: 50%;
+}
+
+#summaryContainer {
+    width: 60%;
+    margin: 50px auto 10px auto;
+}
+
+#seatingContainer {
+    width: 100%;
+    margin: 40px auto;
+}
+
+#seatSelectionContainer {
+    min-height: 200px;
+    background: white;
+}
+
+#busFront,
+#busBack {
+    float: left;
+    width: 15%;
+    height: 100%;
+}
+
+#busSeating {
+    float: left;
+    width: 70%;
+}
+
+.busRow {
+    margin: 10px 0px;
+    float: left;
+    width: 20%;
+}
+
+.busSeat {
+    margin: 10px 10px;
+    background-color: #9E9E9E;
+    width: 70%;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.busSeat.available {
+    background-color: #ffffff;
+}
+
+.busSeat.booked {
+    background-color: #9E9E9E;
+}
+
+.busSeat.selected {
+    background-color: #8BC34A;
+}
+
+#seatHelperContainer {
+    margin: 8px 0px 0px 0px;
+}
+
+#seatsSelectedText {
+    width: 160px;
+    margin-top: 20px;
+}
+
+#totalAmount {
+    line-height: 50px;
+    font-weight: bold;
+}
+
+#JourneyLocations {
+    margin-top: 20px;
+}
+
+#payBtn,
+.searchButton {
+    width: 200px;
+    background-color: gainsboro;
+    color: #653E0B;
+    margin: 20px auto;
+    font-size: 1.5rem;
+    line-height: 1.467;
+    font-family: "Segoe UI", "Segoe WP", Arial, Sans-Serif;
+    font-weight: normal;
+    height: 100%;
+    background: #feb632;
+    color: #333;
+    padding: .4rem 1.8rem .6rem;
+}
+
+.bookBtn {
+    background-color: gainsboro;
+    color: #653E0B;
+    margin: 20px auto;
+    font-family: "Segoe UI", "Segoe WP", Arial, Sans-Serif;
+    font-weight: normal;
+    background: #feb632;
+    color: #333;
+    padding: .4rem 1.8rem .6rem;
+}
+
+
+/*------------------------MODAL--------------------------*/
+
+
+/*.select2-container--open .select2-dropdown {
+    left: 8px !important;
+    top: 22px;
+    }*/

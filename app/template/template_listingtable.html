@@ -1,0 +1,51 @@
+<div class="listingTableContainer">
+    <table id="listingTable" class="tablesorter">
+        <thead>
+            <tr>
+                <th>Bus operator</th>
+                <th>&nbsp;</th>
+                <th>Departing Time</th>
+                <th>ArrivalTime</th>
+                <th>Duration</th>
+                <th>Price</th>
+                <th>&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+
+
+            <% for(var i=0, len = availableOperators.length; i<len; i++){ %>
+
+                <tr class="listingRow">
+                    <td>
+                        <%=availableOperators[i]['operatorName']%>
+                    </td>
+                    <td>
+                        <img style="height: 40px;" src="<%=availableOperators[i]['logo']%>">
+                    </td>
+                    <td>
+                        <%=availableOperators[i]['departTimeText']%>
+                    </td>
+                    <td>
+                        <%=availableOperators[i]['arrivalTimeText']%>
+                    </td>
+                    <td>
+                        <%=availableOperators[i]['durationText']%>
+                    </td>
+                    <td>
+                        <%=availableOperators[i]['price']%>
+                    </td>
+                    <td>
+                        <button id="bus_id_<%=availableOperators[i]['operatorId']%>" data-operatorid="<%=availableOperators[i]['operatorId']%>" class="bookBtn">BOOK</button>
+                    </td>
+                </tr>
+                <% } %>
+
+        </tbody>
+    </table>
+
+</div>
+
+<div id="bookingContainer" class="hide">
+
+</div>
